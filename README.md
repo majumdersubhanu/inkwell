@@ -25,13 +25,13 @@ Follow these steps to set up and run InkWell on your local machine:
 1. **Clone the Repository:**
 
     ```bash
-    git clone https://github.com/Katekko/ekko_app.git
+    git clone https://github.com/majumdersubhanu/inkwell.git
     ```
 
 2. **Navigate to the Project Directory:**
 
     ```bash
-    cd ekko_app
+    cd inkwell
     ```
 
 3. **Install Dependencies:**
