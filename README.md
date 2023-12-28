@@ -59,7 +59,7 @@ The project structure is organized following the CLEAN architecture pattern, enh
     - **widgets:** Houses reusable UI components.
     - **bindings:** Manages dependency injection for each page.
 - **application:** Bridges the gap between the presentation layer and the domain layer.
-    - **usecases:** Defines specific use cases for the app.
+    - **use cases:** Defines specific use cases for the app.
 - **injection:** Handles dependency injection using GetX bindings.
 - **main.dart:** Entry point of the application.
 
