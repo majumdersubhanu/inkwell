@@ -11,6 +11,7 @@ class NewsCardWidget extends StatelessWidget {
   final String imageUrl;
   final String publishedAt;
   final String url;
+  final String source;
 
   const NewsCardWidget({
     super.key,
@@ -19,6 +20,7 @@ class NewsCardWidget extends StatelessWidget {
     required this.imageUrl,
     required this.publishedAt,
     required this.url,
+    required this.source,
   });
 
   @override
@@ -61,7 +63,7 @@ class NewsCardWidget extends StatelessWidget {
                 ),
                 const SizedBox(height: 8),
                 Text(
-                  'Published on ${Jiffy.parse(publishedAt).yMMMEd}',
+                  'Published by $source on ${Jiffy.parse(publishedAt).yMMMEd}',
                   style: const TextStyle(fontSize: 14, color: Colors.grey),
                 ),
                 const SizedBox(height: 8),

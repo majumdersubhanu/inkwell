@@ -96,7 +96,7 @@ class HomeScreen extends GetView<HomeController> {
                 imageUrl:
                     article.urlToImage ?? "https://placehold.co/600x400.png",
                 publishedAt: article.publishedAt ?? "No Publish Date",
-                url: article.url ?? "No Url",
+                url: article.url ?? "No Url", source: article.source!.name ?? "No Source",
               );
             },
           ),
